@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    overflow-x: hidden;
+    font-family: 'Fredoka One', cursive;
+}
+nav{
+    z-index: 2;
+    position: fixed;
+    height: 50px;
+    width: 100%;
+    background-color: #323030;
+    display: flex;
+}
+.nav{
+    color: white;
+}
+.nav ul{
+    display:flex;
+    height: 50px;
+    align-items: center;
+    width: 100%;
+}
+.logo{
+    width: 100px;
+    height: 50px;
+    background-image: url("images/[CITYPNG 1.png");
+    background-size: contain;
+}
+.nav{
+    align-self: flex-end;
+}
+.nav ul li{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    text-align: center;
+}
+.nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+.title{
+    font-size: 45px;
+    color: white;
+    text-shadow: 2px 2px 4px #000000
+}
+.slide{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.background{
+    height: 100%;
+    width: 100%;
+    backdrop-filter: blur(2px);
+    z-index: -1;
+    background-image: url("images/3629239 2.png");
+    background-size: 150%;
+    background-position: 50% 100%;
+}
+.left{
+    position: absolute;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    transform: translate(-50%);
+    width: 60%;
+    height: 100%;
+    left: 0;
+    transition: 2s;
+}
+.center{
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translate(-50%);
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    height: 100%;
+    transition: 3s;
+}
+.right{
+    position: absolute;
+    transform: translate(-50%);
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    transition:2s;
+    width: 60%;
+    height: 100%;
+    left: 95%;
+}
+/*** Scene ***/
+.box{
+    display: flex;
+}
+.left-personnage{
+    width: 913px;
+    height: 802px;
+    background-image: url("images/2020060915294838842 1.png");
+}
+.center-personnage{
+    width: 928px;
+    height: 673px;
+    background: url("images/2020060915263132993 1.png");
+}
+.right-personnage{
+    width: 928px;
+    height: 802px;
+    background: url("images/2019102814514473291 1.png");
+    background-repeat: no-repeat;
+}
+.bg-slide{
+    animation-duration: 2s;
+    animation-name: background-slide
+}
+.round{
+    width:100px;
+    height: 100px;
+    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    transition: 2s;
+}
+.pyro{
+    border: 5px solid #FFA870;
+    margin-right: 100px;
+}
+.hydro{
+    border: 5px solid #08E1FC;
+    margin-right: 100px;
+}
+.anemo{
+    border: 5px solid #A6F4CC;
+    margin-left: 250px;
+}
+.color-anemo{
+    color: #A6F4CC;
+    text-shadow: 2px 2px 4px #000000
+}
+.color-pyro{
+    color: #FFA870;
+    text-shadow: 2px 2px 4px #000000
+}
+.color-hydro{
+    color: #08E1FC;
+    text-shadow: 2px 2px 4px #000000
+}
+.line{
+    line-height: 90px;
+}
+.color-hydro:hover{
+    text-shadow: 2px 2px 4px rgba(166, 244, 204, 0.76);
+}
