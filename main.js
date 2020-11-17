@@ -9,7 +9,7 @@ const anemo = document.querySelector('.anemo')
 
 left.addEventListener('mouseenter' , evt => {
 
-    left.style.left='20%'
+    left.style.left='10%'
     center.style.left='70%'
     right.style.left='130%'
 
