@@ -22,7 +22,7 @@ left.addEventListener('mouseenter' , evt => {
     document.querySelector('.color-pyro').style.textDecoration = 'underline'
 
     background.animate([
-        {backgroundPosition : ' 50% 100%'},{backgroundPosition : ' 0 100%'}
+        {backgroundPosition : ' 0 100%'}
     ], {
         duration: 1000, fill:"forwards"
     })
